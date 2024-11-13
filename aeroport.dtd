@@ -1,0 +1,32 @@
+<!DOCTYPE Aeroport [
+    <!ELEMENT Aeroport (Employes, Pistes, Compagnies, Avions, Vols)>
+    <!ELEMENT Employes (Employe)+>
+    <!ELEMENT Employe (ID, Nom, Age, Poste)>
+    <!ATTLIST Employe ID CDATA #REQUIRED>
+
+    <!ELEMENT Nom (#PCDATA)>
+    <!ELEMENT Age (#PCDATA)>
+    <!ELEMENT Poste (#PCDATA)>
+
+    <!ELEMENT Pistes (Piste)+>
+    <!ELEMENT Piste (ID, Nom, Longueur)>
+    <!ATTLIST Piste ID CDATA #REQUIRED>
+    <!ELEMENT Longueur (#PCDATA)>
+
+    <!ELEMENT Compagnies (Compagnie)+>
+    <!ELEMENT Compagnie (ID, Nom, Pays)>
+    <!ATTLIST Compagnie ID CDATA #REQUIRED>
+    <!ELEMENT Pays (#PCDATA)>
+
+    <!ELEMENT Avions (Avion)+>
+    <!ELEMENT Avion (ID, Modele, Capacite)>
+    <!ATTLIST Avion ID CDATA #REQUIRED>
+    <!ELEMENT Modele (#PCDATA)>
+    <!ELEMENT Capacite (#PCDATA)>
+
+    <!ELEMENT Vols (Vol)+>
+    <!ELEMENT Vol (ID, Numero, Destination)>
+    <!ATTLIST Vol ID CDATA #REQUIRED>
+    <!ELEMENT Numero (#PCDATA)>
+    <!ELEMENT Destination (#PCDATA)>
+]>
