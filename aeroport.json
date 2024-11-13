@@ -1,0 +1,107 @@
+{
+    "Aeroport": {
+        "Employes": [
+            {
+                "ID": 1,
+                "Nom": "Jean D",
+                "Age": 35,
+                "Poste": "Pilote"
+            },
+            {
+                "ID": 2,
+                "Nom": "Melanie M",
+                "Age": 29,
+                "Poste": "Agent de piste"
+            },
+            {
+                "ID": 3,
+                "Nom": "Paul E",
+                "Age": 42,
+                "Poste": "Contrôleur "
+            }
+        ],
+        "Pistes": [
+            {
+                "ID": 1,
+                "Nom": "Piste A",
+                "Longueur": 3000
+            },
+            {
+                "ID": 2,
+                "Nom": "Piste B",
+                "Longueur": 3500
+            },
+            {
+                "ID": 3,
+                "Nom": "Piste C",
+                "Longueur": 4000
+            }
+        ],
+        "Compagnies": [
+            {
+                "ID": 1,
+                "Nom": "Air France",
+                "Pays": "France"
+            },
+            {
+                "ID": 2,
+                "Nom": "Royal Air Maroc",
+                "Pays": "Maroc"
+            },
+            {
+                "ID": 3,
+                "Nom": "vueling",
+                "Pays": "Espagne"
+            }
+        ],
+        "Avions": [
+            {
+                "ID": 1,
+                "Modele": "A320",
+                "Capacite": 180,
+                "CompagnieID": 1
+            },
+            {
+                "ID": 2,
+                "Modele": "Boeing 747",
+                "Capacite": 416,
+                "CompagnieID": 2
+            },
+            {
+                "ID": 3,
+                "Modele": "Airbus A380",
+                "Capacite": 555,
+                "CompagnieID": 3
+            }
+        ],
+        "Vols": [
+            {
+                "ID": 1,
+                "Numero": "AF1234",
+                "AvionID": 1,
+                "PisteID": 1,
+                "Destination": "New York",
+                "Date": "2024-11-15",
+                "PiloteID": 1
+            },
+            {
+                "ID": 2,
+                "Numero": "BA5678",
+                "AvionID": 2,
+                "PisteID": 2,
+                "Destination": "Londres",
+                "Date": "2024-11-16",
+                "PiloteID": 1
+            },
+            {
+                "ID": 3,
+                "Numero": "LH7890",
+                "AvionID": 3,
+                "PisteID": 3,
+                "Destination": "Tokyo",
+                "Date": "2024-11-17",
+                "PiloteID": 1
+            }
+        ]
+    }
+}
