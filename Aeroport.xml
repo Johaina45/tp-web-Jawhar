@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Aeroport SYSTEM "C:/Users/Johaina/Desktop/aeroport.dtd">
+<Aeroport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="aeroportSchema.xsd">
+    <Employes>
+        <Employe>
+            <ID>1</ID>
+            <Nom>Jean D</Nom>
+            <Age>35</Age>
+            <Poste>Pilote</Poste>
+        </Employe>
+        <Employe>
+            <ID>2</ID>
+            <Nom>Melanie M</Nom>
+            <Age>29</Age>
+            <Poste>Agent de piste</Poste>
+        </Employe>
+        <Employe>
+            <ID>3</ID>
+            <Nom>Paul E</Nom>
+            <Age>42</Age>
+            <Poste>Contrôleur </Poste>
+        </Employe>
+    </Employes>
+
+    <Pistes>
+        <Piste>
+            <ID>1</ID>
+            <Nom>Piste A</Nom>
+            <Longueur>3000</Longueur>
+        </Piste>
+        <Piste>
+            <ID>2</ID>
+            <Nom>Piste B</Nom>
+            <Longueur>3500</Longueur>
+        </Piste>
+        <Piste>
+            <ID>3</ID>
+            <Nom>Piste C</Nom>
+            <Longueur>4000</Longueur>
+        </Piste>
+    </Pistes>
+
+    <Compagnies>
+        <Compagnie>
+            <ID>1</ID>
+            <Nom>Air France</Nom>
+            <Pays>France</Pays>
+        </Compagnie>
+        <Compagnie>
+            <ID>2</ID>
+            <Nom>Royal Air Maroc</Nom>
+            <Pays>Maroc</Pays>
+        </Compagnie>
+        <Compagnie>
+            <ID>3</ID>
+            <Nom>vueling</Nom>
+            <Pays>Espagne</Pays>
+        </Compagnie>
+    </Compagnies>
+
+    <Avions>
+        <Avion>
+            <ID>1</ID>
+            <Modele>A320</Modele>
+            <Capacite>180</Capacite>
+            <CompagnieID>1</CompagnieID>
+        </Avion>
+        <Avion>
+            <ID>2</ID>
+            <Modele>Boeing 747</Modele>
+            <Capacite>416</Capacite>
+            <CompagnieID>2</CompagnieID>
+        </Avion>
+        <Avion>
+            <ID>3</ID>
+            <Modele>Airbus A380</Modele>
+            <Capacite>555</Capacite>
+            <CompagnieID>3</CompagnieID>
+        </Avion>
+    </Avions>
+
+    <Vols>
+        <Vol>
+            <ID>1</ID>
+            <Numero>AF1234</Numero>
+            <AvionID>1</AvionID>
+            <PisteID>1</PisteID>
+            <Destination>New York</Destination>
+            <Date>2024-11-15</Date> 
+            <PiloteID>1</PiloteID>
+        </Vol>
+        <Vol>
+            <ID>2</ID>
+            <Numero>BA5678</Numero>
+            <AvionID>2</AvionID>
+            <PisteID>2</PisteID>
+            <Destination>Londres</Destination>
+            <Date>2024-11-16</Date> 
+            <PiloteID>1</PiloteID> 
+        </Vol>
+        <Vol>
+            <ID>3</ID>
+            <Numero>LH7890</Numero>
+            <AvionID>3</AvionID>
+            <PisteID>3</PisteID>
+            <Destination>Tokyo</Destination>
+            <Date>2024-11-17</Date> 
+            <PiloteID>1</PiloteID> 
+        </Vol>
+    </Vols>
+</Aeroport>
